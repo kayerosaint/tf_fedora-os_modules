@@ -1,0 +1,5 @@
+region            = "eu-west-3"
+image             = "kayerosaint/ruby-test-app:latest"
+instance_key_file = "ssh_keys/id_rsa_instance_key.pub"
+instance_ami      = "ami-0ca82f640eae28513"
+instance_user     = "core"
