@@ -31,3 +31,13 @@ variable "webserver_sg_id" {
 }
 
 variable "public_subnet_ids" {}
+
+
+
+
+
+variable "aws_internet_gateway" {}
+
+variable "aws_route_table" {}
+
+variable "aws_route_table_association" {}

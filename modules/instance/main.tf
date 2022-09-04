@@ -18,8 +18,8 @@ resource "aws_eip_association" "eip_assoc" {
 #=====================User Data===========================#
 
 data "ct_config" "config" {
-  content = templatefile("${path.module}/config.tpl", {
-    key  = file(var.ssh_key),
+  content = templatefile("${path.module}/cfg.tpl", {
+    key  = var.ssh_key
     user = var.user
   })
   strict = true
